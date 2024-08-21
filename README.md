@@ -7,6 +7,9 @@ This is the second project of the Software Engineering program at TripleTen. It 
 - "New update to my project": Create files and html structure
 - "Stage 2 update": create and style header and recipes section-embed content
 - "Stage 3 update": create and style form
+- "Create README": create this page
+- "Stage 4 update 1": organize files according to BEM methodology
+- "Stage 4 update 2": create 2 remaining sections and footer-animate content
 
 ## Project description
 
