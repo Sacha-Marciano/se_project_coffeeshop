@@ -13,7 +13,7 @@
   background-image: url(../images/background_header.svg);
   background-position: center;
   background-size: cover;
-  height: 800px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -97,6 +97,7 @@
 }  commented for further use and to not forget */
 
 .recipes {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -158,6 +159,7 @@
 }
 
 .reservation {
+  height: 100vh;
   background-color: #d9e7ff;
   background-image: url(../images/background_reservation.svg);
   background-repeat: no-repeat;
@@ -242,12 +244,13 @@
 }
 
 /*
-
-
 .menu {
+  height: 100vh;
 }
 
+
 .about {
+height: 100vh;
 }
 
 .footer {

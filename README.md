@@ -2,7 +2,16 @@
 
 This is the second project of the Software Engineering program at TripleTen. It was created using HTML and CSS, based on the design brief.
 
-## Project features
+## Updates
+
+- "New update to my project": Create files and html structure
+- "Stage 2 update": create and style header and recipes section-embed content
+- "Stage 3 update": create and style form
+
+## Project description
+
+This website serves the fictional library coffeeshop in the fictional city of Triple Peaks. It is supposed to ease the client's experience by ordering food online and having some entertainment to wait during the preparation.
+The project was built using the following tools:
 
 - Semantic HTML5
 - Flexbox
@@ -11,6 +20,15 @@ This is the second project of the Software Engineering program at TripleTen. It 
 - A custom form
 - CSS animation and transform
 
+## Project look
+
+![site image](https://practicum-content.s3.amazonaws.com/resources/Triple20Espresso20page_1696951234.png)
+
+## Instruction to deploy
+
+Best experience on chrome browser
+
 ## Plan on improving the project
 
-Add your ideas here :)
+- Add a coffeeshop club feature to build customer loyalty
+- Add social media log in to make customer's profile in the coffeeshop club more personal
