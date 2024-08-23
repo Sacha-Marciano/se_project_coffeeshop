@@ -19,7 +19,7 @@
   color: #000;
 }
 
-.form__label_checkbox {
+.form__label_type_checkbox {
   display: flex;
   margin: 0;
   align-self: center;
