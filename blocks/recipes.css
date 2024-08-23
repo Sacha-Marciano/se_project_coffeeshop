@@ -25,7 +25,6 @@
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
-  font-weight: normal;
 }
 
 .recipes__videos {
@@ -35,12 +34,12 @@
   gap: 40px;
 }
 
-/* .recipes__french-press{
-  }
-  
-  .recipes__aeropress{
-  
-  }  commented for further use and to not forget */
+.recipes__video {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 24px;
+}
 
 .recipes__iframe {
   box-sizing: border-box;
@@ -50,7 +49,6 @@
 }
 
 .recipes__video-caption {
-  margin: 24px 0 0;
   display: flex;
   justify-content: space-between;
   font-weight: 500;

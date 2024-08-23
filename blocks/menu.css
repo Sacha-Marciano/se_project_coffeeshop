@@ -22,7 +22,6 @@
   margin: 24px 0 0;
   text-align: center;
   font-family: "Noto Serif", "Times New Roman", serif;
-  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
 }
@@ -33,39 +32,4 @@
   justify-content: center;
   gap: 100px;
   margin: 100px 0;
-}
-
-.card {
-  width: 540px;
-}
-
-.card__title {
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-  margin: 0;
-}
-
-.card__list {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  padding: 0;
-  margin: 32px 0 0;
-}
-
-.card__list-item {
-  font-family: "Noto Serif", "Times New Roman", serif;
-  display: flex;
-  margin: 0 0 16px;
-}
-
-.card__list-item:last-of-type {
-  margin: 0;
-}
-
-.card__list-divider {
-  flex-grow: 2;
-  margin: 0 5px;
-  border-bottom: 1px solid #000;
 }
