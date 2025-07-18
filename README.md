@@ -1,37 +1,80 @@
 # Triple Peaks Coffee Shop
 
-This is the second project of the Software Engineering program at TripleTen. It was created using HTML and CSS, based on the design brief.
+A responsive, single-page website for the fictional Triple Peaks Coffee Shop, designed to provide a welcoming digital experience for customers. Built with semantic HTML5 and modular CSS (BEM methodology), the site features a modern layout, interactive sections, and a custom reservation form.
 
-## Updates
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Design & Assets](#design--assets)
+- [Planned Improvements](#planned-improvements)
+- [Credits](#credits)
 
-- "New update to my project": Create files and html structure
-- "Stage 2 update": create and style header and recipes section-embed content
-- "Stage 3 update": create and style form
-- "Create README": create this page
-- "Stage 4 update 1": organize files according to BEM methodology
-- "Stage 4 update 2": create 2 remaining sections and footer-animate content
+## Overview
+Triple Peaks Coffee Shop is a fictional coffee shop located in the Triple Peaks Library. The website allows users to:
+- Explore the menu and shop philosophy
+- Watch coffee recipe videos
+- Book a table online
+- Learn about the shop's mission and values
+- Connect via social media
 
-## Project description
+## Features
+- **Responsive, accessible layout** using semantic HTML5
+- **Modular CSS** with BEM methodology for maintainability
+- **Custom reservation form** with validation
+- **Embedded YouTube videos** for coffee recipes
+- **Animated and visually engaging sections**
+- **Social media links** and shop information in the footer
+- **No JavaScript required** — all interactivity is handled with HTML and CSS
 
-This website serves the fictional library coffeeshop in the fictional city of Triple Peaks. It is supposed to ease the client's experience by ordering food online and having some entertainment to wait during the preparation.
-The project was built using the following tools:
+## Project Structure
+```
+se_project_coffeeshop/
+  ├── blocks/           # Modular CSS blocks (BEM)
+  ├── images/           # Image and SVG assets
+  ├── Overview images/  # Design overview images
+  ├── pages/
+  │   └── index.css     # Main CSS entry point
+  ├── vendor/
+  │   └── normalize.css # CSS reset
+  ├── index.html        # Main HTML file
+  ├── texts.md          # Project texts and content
+  └── README.md         # Project documentation
+```
 
-- Semantic HTML5
-- Flexbox
-- Positioning
-- Flat BEM file structure
-- A custom form
-- CSS animation and transform
+## Getting Started
+1. **Clone or download** this repository to your local machine.
+2. Open `index.html` in your preferred browser (best experience on Chrome).
+3. No build step or server is required — all assets are local and static.
 
-## Project look
+## Usage
+- **Navigation:** Use the top navigation bar to jump to Recipes, Menu, Reservation, or Contacts.
+- **Recipes:** Watch embedded videos for Aeropress and French Press coffee methods.
+- **Menu:** Browse coffee and baked goods, with clear pricing.
+- **Book a Table:** Fill out the reservation form (name, guests, date/time, email, terms agreement) to book a table.
+- **About:** Learn about the shop's mission, sustainability, and amenities.
+- **Footer:** Find social media links and copyright.
 
-![site image](https://practicum-content.s3.amazonaws.com/resources/Triple20Espresso20page_1696951234.png)
+## Design & Assets
+- **Fonts:** [Inter](https://fonts.google.com/specimen/Inter) and [Noto Serif](https://fonts.google.com/specimen/Noto+Serif) via Google Fonts
+- **CSS Reset:** [normalize.css](https://necolas.github.io/normalize.css/)
+- **Images & SVGs:** Located in `/images/` and `/Overview images/`
+- **BEM CSS:** All styles are modular and follow the Block-Element-Modifier convention
 
-## Instruction to deploy
+## Planned Improvements
+- Add a Coffee Shop Club feature for customer loyalty
+- Enable social media login for personalized profiles
+- Enhance accessibility and mobile responsiveness
+- Add more interactive features (e.g., menu filtering)
 
-Best experience on chrome browser
+## Credits
+- **Author:** Sacha M. Marciano
+- **Design & Concept:** TripleTen Software Engineering Program
+- **Icons & Images:** Custom and open-source assets
+- **License:** For educational use only
 
-## Plan on improving the project
+---
 
-- Add a coffeeshop club feature to build customer loyalty
-- Add social media log in to make customer's profile in the coffeeshop club more personal
+For questions or suggestions, please contact the author or open an issue.
